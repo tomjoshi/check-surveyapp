@@ -19,12 +19,13 @@ if (Meteor.isClient) {
     },
     'submit form': function(event){
       event.preventDefault()
+
       console.log(event.target.title.value)
+
       var newSurvey = {title: event.target.title.value}
-
       surveys.insert(newSurvey)
-      console.log(surveys.find().fetch())
 
+      console.log(surveys.find().fetch())
     }
   });
 

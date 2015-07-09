@@ -1,6 +1,3 @@
-A tiny meteor app that allows you to take a survey and prints the results on a different page. 
-Build on what is currently here. The survey only has one field right now (title). Build the survey 
-as you see fit (e.g., survey for favorite restaurant, feedback for an event etc). Then print the 
-results on the surveyResults page.
+A tiny meteor app that allows you to take a survey and prints the results on a different page. Build on what is currently here. The survey only has one field right now (title). Build the survey as you see fit (e.g., survey for favorite restaurant, feedback for an event etc). Then print the results on the surveyResults page.
 
 
