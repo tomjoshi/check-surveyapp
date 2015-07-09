@@ -1,0 +1,32 @@
+<head>
+  <title>CheckDev Survey Test</title>
+</head>
+
+<body>
+  <h1>CheckDev Survey Test</h1>
+</body>
+
+
+<!-- page where user takes a survey -->
+<template name="survey">
+  
+	<!-- create survey here, you can choose the inputs (use more than one input type) -->
+	<form>
+		<input name="title" type="text" placeholder="title">
+		<button type="submit">submit</button>
+	</form>
+
+  	<button href="/surveyResults">See Survey Results</button>
+</template>
+
+<!-- page where you see results of survey -->
+<template name="surveyResults">
+	<div>
+		{{#each surveys}}
+			<p>
+				{{title}}
+			</p>
+		{{/each}}
+	</div>
+  	<button>Take Survey</button>
+</template>
